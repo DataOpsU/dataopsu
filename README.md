@@ -1,2 +1,2 @@
 # dataopsu
-Resources for DataOpsU
+Resources for DataOpsU Students
