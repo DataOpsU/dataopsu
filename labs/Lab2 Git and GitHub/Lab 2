@@ -1,0 +1,30 @@
+Lab 2: Git and GitHub
+Source control: what is it and why use it?
+Git commands
+git status - shows the status of commits, branch, staged files
+git diff - shows the difference between two files or commits
+git pull - fetch and merge from remote repo to local repo
+git push - send local repo to remote repo
+git commit - save changes, like creating a checkpoint/savepoint
+git add - add files to the working directory (ready to be committed)
+git branch - look at other branches
+git blame - see who made changes to a file
+git checkout -  switch between branches, also revert changes to a file
+git merge - combine two branches in a commit
+git fetch - look at changes to remote repo (git pull does this and more)
+git clone - copy a remote repo locally
+git config - change configuration of git
+
+
+Cache username and password for 15 minutes
+git config --global credential.helper cache
+
+.gitignore - ignore the pyc file
+https://git-scm.com/docs/gitignore
+Branches
+Master branch
+Pull requests
+Merge conflicts
+origin/remote
+
+Clone, create branch, add file, commit changes, pull changes from master, merge master into their branch, push up their branch, issue pull request.

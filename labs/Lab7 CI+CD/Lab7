@@ -1,0 +1,78 @@
+1 Make a fork of the biography repo 
+2 Create a yaml file and a jinja template file
+ADD THE 
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+</body>
+</html>
+Copy from template/base
+Make sure they have the correct ownership and group access
+3Create a github action workflow
+Make some github secrets
+-Example:
+# This is a basic workflow to help you get started with Actions
+
+name: DataOpsU
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  copy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: SCP deploy action
+      uses: nogsantos/ssh-scp-deploy@v1.2.1
+      with:
+        # Sorce dir to deploy
+        src: templates/
+        # SSH address
+        host: ${{ secrets.HOST }}
+        # Remote dir path
+        remote: /shared/templates/
+        # SSH User name
+        user: ${{ secrets.USERNAME }}
+        # Private key
+        key: ${{ secrets.SSH2 }}
+4 make a change and watch it work
+	-http://161.35.190.211:8080/bio/abe
+5 Look at how the fast api server looks like
+
+CI/CD
+Setup jenkins server on dataopsu server
+github actions
+
+Create github action or jenkins job to watch repo and create/add a new page to the website
+Create their own github repo with picture/bio | or maybe yaml file with their data
+Github action will login to dataopsu server and copy over the file
+
+Have a template for a webpage
+Go to dataopu.com/<name> finds their config file and render
+“Fast api server”
+
+Simple webservice that we are updating
+
+Docker
+Run and modify docker images
+Create new images
+
+
+Create a jinja template (shared/template directory)
+Create a yaml file (home directory)
+Create a github action
+Fork the template repo

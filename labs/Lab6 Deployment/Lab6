@@ -1,0 +1,115 @@
+Example Make File
+dev-up: \
+        openteams-backend-up \
+        openteams-nuxt-up \
+        nginx-up
+ 
+dev-down: \
+        nginx-down \
+      openteams-nuxt-down \
+        openteams-backend-down
+ 
+dev-migrate: openteams-backend-migrate
+ 
+# openteams-backend
+ 
+openteams-backend-up:
+    cd openteams-backend; docker-compose up -d
+ 
+openteams-backend-down:
+    cd openteams-backend; docker-compose down
+ 
+openteams-backend-migrate: dev-up
+    cd openteams-backend; docker-compose exec runserver bash -lc \
+        "python manage.py migrate"
+ 
+openteams-backend-tests:
+    cd openteams-backend; docker-compose run runserver bash -lc \
+        "python manage.py test"
+ 
+openteams-backend-flake8:
+    cd openteams-backend; docker-compose run runserver bash -lc \
+        "flake8 openteams" && docker-compose down
+ 
+openteams-backend-bash:
+    cd openteams-backend; docker-compose exec runserver bash
+ 
+# openteams-nuxt
+openteams-nuxt-up:
+    cd openteams-nuxt; docker-compose up -d
+ 
+openteams-nuxt-down:
+    cd openteams-nuxt; docker-compose down
+ 
+openteams-nuxt-logs:
+    cd openteams-nuxt; docker-compose logs
+ 
+openteams-nuxt-logs-follow:
+    cd openteams-nuxt; docker-compose logs --follow
+ 
+openteams-nuxt-restart:
+    cd openteams-nuxt; docker-compose restart
+ 
+# nginx
+nginx-up:
+    mkdir -p nginx/logs;
+    docker-compose up -d
+ 
+nginx-down:
+    docker-compose down
+ 
+nginx-restart:
+    docker-compose restart nginx
+ 
+nginx-bash:
+    docker-compose exec nginx bash
+ 
+ 
+
+Create a makefile with 3 parts to switch environments and run a jupyter lab server and both combined
+Install make with conda
+Create a makefile with 3 sections
+Switch conda environments
+Run jupyter lab server
+Combine both parts together
+
+Setup.py
+
+Create a file called setup.py
+ import setup, find_packages from setuptools
+Make sure the folders you want to include have a __init__.py file (this marks them as packages)
+Use the ‘python setup.py sdist’ command to create the distribution file
+Intro to tar balls 
+‘tar --list -f dist/<filename>’ to view dist contents
+Create a MANIFEST.in file and include the non python files you want 
+Use ‘python setup.py develop’ to use the package or ‘install’ to install the package
+
+
+
+
+Notes:
+Conda build
+Make
+Docker/Kubernetes
+CI/CD (Jenkins, TravisCi, GitHub Actions, Circle CI)
+
+
+Get a docker machine working - jupyter lab/hub/ (remote access already set up if possible)
+Maybe build a conda package, 
+Build a make file
+Talk about conda-forge
+
+
+Pick an OS project from which we can run conda build
+Multiple files/dependencies 
+
+
+Extra lab
+Conda build to create package “mimesis” (pure python)
+Conda-forge create a feed-stock
+What is setup.py
+
+
+Setup.py - have some dependencies
+Makefile - multiple sections (let them do a third and fourth section)
+Conda build package

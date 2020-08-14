@@ -1,0 +1,20 @@
+Lab 1: SSH Keys
+
+Create a key-pair
+https://youtu.be/m56t9MuTyLA
+Ssh key gen
+
+ssh-keygen -t rsa
+
+Install git bash (windows)
+https://git-scm.com/downloads
+Putty users
+
+Create a ssh directory
+
+cd ~
+mkdir .ssh
+Change file permissions
+
+Using vi/vim (terminal text editor) to create authorized_keys file
+vim authorized_keys 

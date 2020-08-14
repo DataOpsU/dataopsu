@@ -1,0 +1,62 @@
+Common conda commands
+Conda info - show info about the current conda environment, installation, etc.
+Conda update - update packages
+Conda install - install new packages
+Conda create - create a new environment
+Conda env - modify and view conda environments
+Conda list - list installed packages
+activate/deactivate (source activate) - activate and switch between environments
+
+Install miniconda on local machine https://docs.conda.io/en/latest/miniconda.html
+and  remote machine (with curl)
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+Change installer to have execute permission chmod u+x <installer name>
+Execute the installer
+Reload shell ‘exec bash’
+create basic environment from command line and env file 
+Conda create --name ‘env name’
+Conda env create -f env.yml
+Get jupyter lab session running locally (conda install)
+Get Jupyter on remote machine, port forwarding to connect to it remotely 
+https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
+jupyter lab --no-browser --port=9999
+‘Jupyter lab’ on the remote machine
+ssh -N -f -L <local port>:localhost:<remote port> <username>@dataopsu.com
+Go to localhost:<local port> in a browser
+‘jupyter notebook list’ to see token
+(open and read a file) Loop through and print out a word, loops, conditionals
+with open('/shared/error.log', 'r') as f:
+    for line in f.readlines():
+        if '2020/04/29' in line:
+            print(line)
+
+
+
+
+How to update your $PATH
+windows
+https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+Mac
+https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/
+Linux
+https://docs.oracle.com/cd/E19062-01/sun.mgmt.ctr36/819-5418/gaznb/index.html
+
+
+Notes
+Ssh -L  port forwarding
+Jupyter lab remote server
+Conda env, from file
+
+Data files, log files, regex parsing
+Env file for them to use (jupyterlab, pandas)
+
+
+Install miniconda, create some environments
+Install jupyter lab into base env
+
+2nd lab,
+Pin versions of packages
+How does conda use Paths under the hood
+$PATH
+
+Add conda to the $PATH on local machine

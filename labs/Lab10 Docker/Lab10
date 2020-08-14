@@ -1,0 +1,47 @@
+Docker Commands
+docker ps (and ps for reference)
+docker images
+docker run
+docker pull
+docker start/stop
+docker build
+
+What’s the difference between an image and a container?
+
+Pull some example images to use
+docker pull ubuntu 
+docker pull python:3.8
+Run containers using the images
+docker run -it python (runs a python shell)
+docker run -it ubuntu (opens the command line in the container)
+What is a Dockerfile?
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+Dockerfile Keywords 
+FROM
+RUN
+CMD
+EXPOSE
+ENV
+ADD
+COPY
+ENTRYPOINT
+VOLUME
+USER
+WORKDIR
+
+Dockerfile Cheat Sheet
+https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index
+
+docker build
+
+Start with miniconda (https://hub.docker.com/r/continuumio/miniconda/)
+change directory to /shared 
+Pip install uvicorn
+Conda install fastapi
+COPY the static files of a working fastapi app
+EXPOSE ports (different ports for each person)
+CMD [uvicorn --host 0.0.0.0 --port]
+
+When the container is run the fastapi server should start working
+
+Docker run -p 80:80 <container id number>

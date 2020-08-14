@@ -1,0 +1,10 @@
+This lab is using a Jupyter Notebook
+https://github.com/DataOpsU/practice
+
+Pandas read csv and read sql
+Loading data, selecting on columns/filtering on values in a field, 
+Head, tail, sample, .T transform
+
+Sqlite db copied to everyone’s folder
+SELECT * from TABLE
+Maybe insert
