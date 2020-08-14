@@ -1,0 +1,531 @@
+Data Ops U 
+Further Reading and resources
+Video Group Chats: https://meet.jit.si/DataOpsU
+(Jacob) Archived Videos will be uploaded to an unlisted YouTube Playlist (The first recording isn’t the most professional, but the rest should be better.): https://www.youtube.com/playlist?list=PLqRnHAUWa85jxVqc45WJwxEUcDMLHKL7A
+Week 1
+https://www.dataopsmanifesto.org/dataops-manifesto.html#Background
+Linux Command Line Basics
+http://swcarpentry.github.io/shell-novice/
+Cheat Sheets
+https://cheat-sheets.s3.amazonaws.com/linux-commands-cheat-sheet-new.pdf
+Navigation
+https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+
+https://www.youtube.com/watch?v=j6vKLJxAKfw&list=PL-osiE80TeTvGhHkpvfmKWOiIPF8UVy6c
+
+cd 
+https://linuxize.com/post/linux-cd-command/
+ls 
+https://www.tecmint.com/15-basic-ls-command-examples-in-linux/
+
+Viewing files 
+less
+https://linuxize.com/post/less-command-in-linux/
+cat
+https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+Editing files
+Vi basics (and Vim)
+https://www.linux.com/training-tutorials/vim-101-beginners-guide-vim/
+
+https://www.youtube.com/watch?v=ggSyF1SVFr4
+nano basics
+https://linuxize.com/post/how-to-use-nano-text-editor/
+emacs basics
+https://www.digitalocean.com/community/tutorials/how-to-use-the-emacs-editor-in-linux
+Linux file system/structure
+https://www.youtube.com/watch?v=HbgzrKJvDRw
+SSH basics
+https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
+
+PuTTY (windows)
+https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-(windows)
+
+https://www.youtube.com/watch?v=qWKK_PNHnnA
+Key basics
+Cloud providers
+
+
+AWS
+https://aws.amazon.com/
+
+Google Cloud
+https://cloud.google.com/
+Microsoft Azure
+https://azure.microsoft.com/en-us/
+Digital Ocean
+https://www.digitalocean.com/
+Linode
+https://www.linode.com/
+
+
+
+Week 2
+
+File reading: less command
+https://www.linode.com/docs/quick-answers/linux/how-to-use-less/
+Cheat sheet https://gist.github.com/glnds/8862214
+superuser: sudo and su
+https://www.linux.com/training-tutorials/how-use-sudo-and-su-commands-linux-introduction/
+chmod and bitmaps
+https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/
+
+Change owner command ‘chown’
+https://linuxize.com/post/linux-chown-command/
+Move command ‘mv’
+https://shapeshed.com/unix-mv/
+Copy command ‘cp’
+https://www.geeksforgeeks.org/cp-command-linux-examples/
+Echo command ‘echo’
+https://www.tecmint.com/echo-command-in-linux/
+Concatenate command ‘cat’
+https://www.tecmint.com/13-basic-cat-command-examples-in-linux/
+Two Factor Authentication
+https://authy.com/what-is-2fa/
+Git basics
+Git tutorial: 
+http://swcarpentry.github.io/git-novice/
+https://www.atlassian.com/git
+https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
+https://www.youtube.com/watch?v=DVRQoVRzMIY
+Git cheat sheet: 
+https://www.git-tower.com/blog/git-cheat-sheet/
+Github
+Create an account at https://github.com/
+Other services like Github.
+https://gitlab.com/
+https://bitbucket.org/
+
+
+
+https://www.codecademy.com/ - free learning resource
+
+
+
+
+
+Week 3
+History of Programming Languages
+https://en.wikipedia.org/wiki/History_of_programming_languages
+What is a programming language?
+https://www.computerhope.com/jargon/p/programming-language.htm
+Visuals
+https://smthngsmwhr.files.wordpress.com/2012/11/top_languages_chart1.png
+https://ccrma.stanford.edu/courses/250a-fall-2005/docs/ComputerLanguagesChart.png
+https://medium.com/@anaharris/human-languages-vs-programming-languages-c89410f13252
+
+What is a Compiler?
+https://lambda.uta.edu/cse5317/notes/node3.html
+Compiled vs Interpreted languages
+https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
+https://kb.iu.edu/d/agsz
+
+Compute Stack
+processor, chip instructions, machine code, user code
+https://www.google.com/search?q=machine+code+vs+user+code&rlz=1C1CHBF_enUS881US881&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiJlL350IbqAhXtSDABHccmD_8Q_AUoAXoECA0QAw&biw=1654&bih=720#imgrc=hHcwgeYh7We-sM
+Cloud Stack
+https://medium.com/google-cloud/gcp-the-google-cloud-platform-compute-stack-explained-c4ebdccd299b
+Anaconda and Conda 
+What are they? 
+https://www.anaconda.com/
+https://docs.conda.io/en/latest/
+
+List of packages from anaconda
+https://docs.anaconda.com/anaconda/packages/py3.8_win-64/
+Getting started with Conda
+https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
+Conda cheat sheet 
+https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
+Install conda 
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+https://www.youtube.com/watch?v=YJC6ldI3hWk
+Miniconda on widows
+https://katiekodes.com/setup-python-windows-miniconda/
+Miniconda
+Install miniconda
+https://docs.conda.io/en/latest/miniconda.html
+To install on linux with curl use https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+curl command (Client for URL’s)
+https://www.tecmint.com/linux-curl-command-examples/
+What are conda environments?
+https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html
+Managing environments
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+What are libraries?
+https://www.quora.com/What-does-library-mean-in-the-case-of-programming-languages
+What are dependencies?
+https://askubuntu.com/questions/361741/what-are-dependencies
+Other tools similar to conda.
+pip - package and dependency management
+https://realpython.com/what-is-pip/
+virtualenv -  for creating and managing environments
+https://docs.python-guide.org/dev/virtualenvs/
+Jupyter
+What is it?
+https://jupyter.org/
+https://www.youtube.com/watch?v=HW29067qVWk
+Jupyter Notebook
+https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html
+JupyterLab
+https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html
+
+What is the difference between lab and NB? 
+https://stackoverflow.com/questions/50982686/what-is-the-difference-between-jupyter-notebook-and-jupyter-lab
+Jupyter Hub
+https://jupyter.org/hub
+
+
+Set up a jupyter server remotely (intermediate)
+https://agent-jay.github.io/2018/03/jupyterserver/
+https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#notebook-server-security
+How to update your $PATH
+windows
+https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+Mac
+https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/
+Linux
+https://docs.oracle.com/cd/E19062-01/sun.mgmt.ctr36/819-5418/gaznb/index.html
+Week 4
+File Parsing and Regex
+What is file parsing?
+https://en.wikipedia.org/wiki/Parsing
+What is regex (regular expressions)?
+https://www.regexbuddy.com/regex.html
+Cheat sheet
+https://www.rexegg.com/regex-quickstart.html
+Regex tutorial
+https://regexone.com/
+https://www.youtube.com/watch?v=sa-TUpSx1JA
+Intro to python
+Tutorial
+https://www.tutorialspoint.com/python/index.htm
+https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU
+Importing
+https://docs.python.org/2.0/ref/import.html
+https://realpython.com/absolute-vs-relative-python-imports/
+https://www.w3schools.com/python/python_modules.asp
+Variables and Types
+https://www.w3schools.com/python/python_variables.asp
+https://realpython.com/python-variables/
+https://www.learnpython.org/en/Variables_and_Types
+Conditionals (if-then statements)
+https://docs.python.org/3/tutorial/controlflow.html
+https://www.guru99.com/if-loop-python-conditional-structures.htm
+Loops
+https://www.geeksforgeeks.org/loops-in-python/\
+https://wiki.python.org/moin/ForLoop
+Objects
+https://www.w3schools.com/python/python_classes.asp
+https://docs.python.org/3/tutorial/classes.html
+Object oriented programming (OOP)
+https://realpython.com/lessons/what-object-oriented-programming-oop/
+Int vs Float (Integer vs Floating point number)
+https://www.dummies.com/programming/c/the-real-difference-between-integers-and-floating-point-values/
+Encoding/Decoding
+What is it?
+https://www.w3.org/International/questions/qa-what-is-encoding
+https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+ASCII (American Standard Code for Information Interchange)
+https://www.computerhope.com/jargon/a/ascii.htm
+http://www.asciitable.com/
+utf-8 (8-bit Unicode Transformation Format)
+https://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16
+https://www.w3schools.com/charsets/ref_html_utf8.asp
+
+Base64 Encoding
+https://en.wikipedia.org/wiki/Base64
+https://base64.guru/learn/what-is-base64
+Week 5
+Pandas (Panel data analysis library)
+https://pandas.pydata.org/docs/
+https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
+What is a pandas dataframe?
+https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dataframe
+Reading data into a pandas dataframe
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html
+
+Pandas cheat sheet
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+Databases
+What is a database?
+https://www.oracle.com/database/what-is-database.html
+
+List of databases
+https://xebialabs.com/the-ultimate-devops-tool-chest/database/
+sql (pronounced “sequel”) - Structured Query Language
+Commands
+https://www.codecademy.com/articles/sql-commands
+Tutorial
+https://www.w3schools.com/sql/
+https://www.codecademy.com/learn/learn-sql
+sql vs no-sql 
+https://www.xplenty.com/blog/the-sql-vs-nosql-difference/
+
+sql databases
+sqlite (sequel-lite)
+https://www.sqlite.org/index.html
+Using sqlite with python
+https://docs.python.org/3/library/sqlite3.html
+postgres-ql
+https://www.postgresql.org/
+my-sql
+https://www.mysql.com/
+no-sql databases (good for unstructured data)
+mongodb
+https://www.mongodb.com/
+Working with a database connection/cursors
+https://en.wikipedia.org/wiki/Database_connection
+https://en.wikipedia.org/wiki/Cursor_(databases)
+Week 6
+Deployment
+Makefile and Make
+https://opensource.com/article/18/8/what-how-makefile
+https://en.wikipedia.org/wiki/Makefile
+https://makefiletutorial.com/
+Install make with conda
+https://anaconda.org/anaconda/make
+conda build
+https://docs.conda.io/projects/conda-build/en/latest/
+https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+https://www.youtube.com/watch?v=HSK-6dCnYVQ&t=737s
+
+setup.py
+https://www.youtube.com/watch?v=wCGsLqHOT2I
+https://setuptools.readthedocs.io/en/latest/setuptools.html
+
+Conda-forge
+https://conda-forge.org/
+Week 7
+CI/CD (Continuous Integration and Continuous Delivery)
+What is CI/CD?
+https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
+Github actions
+https://github.com/features/actions
+https://github.com/actions
+Github secrets
+https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
+Jenkins
+https://www.jenkins.io/
+https://www.youtube.com/watch?v=yz3tyeA3Fe0
+
+Other ci/cd tools
+Travis-CI
+https://travis-ci.org/
+CircleCi
+https://circleci.com/
+
+Notes for the Lab
+fastapi 
+https://fastapi.tiangolo.com/features/
+uvicorn 
+https://www.uvicorn.org/
+Jinja templates
+https://jinja.palletsprojects.com/en/2.11.x/
+html (hypertext markup language)
+https://www.w3schools.com/html/
+https://html.com/
+yaml (yaml ain’t markup language)
+https://circleci.com/blog/what-is-yaml-a-beginner-s-guide
+
+Week 8
+Configuration Management Tools
+Push vs Pull
+https://medium.com/@gayatrisajith/beginner-fundamentals-push-pull-configuration-management-tools-85eff1b41447
+Salt (Saltstack)
+https://www.saltstack.com/
+https://en.wikipedia.org/wiki/Salt_(software)
+Install salt
+https://docs.saltstack.com/en/master/topics/installation/index.html
+https://anaconda.org/conda-forge/salt
+Ansible
+https://www.ansible.com/
+Install ansible
+https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+Ansible-playbook
+https://www.tutorialspoint.com/ansible/ansible_playbooks.htm
+
+Similar tools
+Puppet
+https://puppet.com/
+Chef
+https://www.chef.io/
+Configuration as code
+https://rollout.io/blog/configuration-as-code-everything-need-know/
+Infrastructure as code
+https://en.wikipedia.org/wiki/Infrastructure_as_code
+https://hackernoon.com/everything-as-code-explained-0ibg32a3
+Celery
+https://en.wikipedia.org/wiki/Celery_(software)
+https://docs.celeryproject.org/en/latest/getting-started/introduction.html
+
+Week 9
+AWS - Amazon Web Services
+https://aws.amazon.com/
+What is it?
+https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp
+EC2 - Elastic Cloud Compute
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+S3 
+https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html
+IAM
+Other AWS Services
+https://aws.amazon.com/products/
+Other similar services
+Linode
+https://www.linode.com/
+Digital Ocean
+https://www.digitalocean.com/
+Week 10
+Docker 
+What is it?
+https://www.docker.com/
+https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/
+https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+https://carpentries-incubator.github.io/docker-introduction/
+Install Docker
+Linux (ubuntu)
+https://docs.docker.com/engine/install/ubuntu/
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+Windows
+https://docs.docker.com/docker-for-windows/install/
+Mac
+https://docs.docker.com/docker-for-mac/install/
+Using a Dockerfile
+https://docs.docker.com/engine/reference/builder/
+https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index
+
+Docker cheat sheet
+https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
+Virtual Machines (VMs) - What are they?
+https://azure.microsoft.com/en-us/overview/what-is-a-virtual-machine/
+Containerization
+https://www.docker.com/resources/what-container
+https://www.citrix.com/glossary/what-is-containerization.html
+Examples
+https://docs.docker.com/samples/
+Other Container Technologies
+RKT
+LXC
+Mesos Containers
+Moby Project
+Kubernetes
+https://kubernetes.io/
+https://www.redhat.com/en/topics/containers/what-is-kubernetes
+https://www.youtube.com/watch?v=daVUONZqn88
+kubectl
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+Helm and Helm Charts
+https://helm.sh/
+Week 11
+Networks
+What is a network?
+https://fcit.usf.edu/network/chap1/chap1.htm
+What is the Internet? (Inter-network) How does it work?
+https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/
+Internet vs WWW (World Wide Web)
+https://www.geeksforgeeks.org/whats-difference-internet-web/
+
+Protocols
+https://en.wikipedia.org/wiki/Lists_of_network_protocols
+HTTP and HTTPS (Hypertext Transfer Protocol)
+What is http?
+https://www.w3schools.com/whatis/whatis_http.asp
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+Request and Response
+https://www.tutorialspoint.com/http/http_requests.htm
+Response Codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+Headers
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+HTTP Methods (GET, POST, PUT, ...)
+https://www.w3schools.com/tags/ref_httpmethods.asp
+
+Web Services
+What are Web Services?
+https://www.tutorialspoint.com/webservices/what_are_web_services.htm
+
+
+Web APIs/REST
+API’s vs Web Services
+https://www.cleo.com/blog/knowledge-base-web-services
+client-server relation
+https://en.wikipedia.org/wiki/Client%E2%80%93server_mode
+https://simple.wikipedia.org/wiki/Client-server
+https://us.norton.com/online-threats/glossary/c/client-server-relationship.html
+
+Web Frameworks
+Python Web Frameworks
+Flask
+https://flask.palletsprojects.com/en/1.1.x/
+FastAPI
+https://fastapi.tiangolo.com/
+Django
+https://www.djangoproject.com/
+
+Other Frameworks
+https://www.geeksforgeeks.org/top-10-frameworks-for-web-applications/
+
+NodeJS
+https://nodejs.org/en/
+Angular 
+https://angular.io/
+Web Servers
+Apache
+https://www.apache.org/
+What is LAMP?
+https://stackoverflow.com/questions/10060285/what-is-a-lamp-stack#:~:text=A%20LAMP%20Stack%20is%20a%20set%20of%20open%2Dsource%20software,and%20the%20PHP%20programming%20language.
+
+Nginx (pronounced “engine X”)
+https://www.nginx.com/
+
+https://www.sumologic.com/blog/nginx-vs-apache/
+
+Week 12
+Security
+Aws
+
+Cybersecurity
+ - sha hash
+Ssl/TLS
+
+LAB: use encode/encryption libraries
+Brute force a short password
+
+
+Working with websites interactively
+Selenium
+BeautifulSoup4
+Misc
+
+Coding practice and resources
+Advent of Code
+https://adventofcode.com/
+Codingame
+https://www.codingame.com/
+
+Talkpython.fm
+
+Frank kane on Udemy
+How to access the remote server.
+	(Written by Jacob)
+Access Terminal
+Mac and Linux have terminal ready for use.
+Try to use Git Bash as that’s a program/terminal we will be using a lot.
+Windows:
+You should be able to ssh into the server using CMD (Command Prompt)
+Follow this guide to activating the Linux Subsystem in Windows here:
+https://www.windowscentral.com/install-windows-subsystem-linux-windows-10
+Then install a Linux distro from the *Windows Store such as ubuntu. (You don’t have to sign up for a Microsoft Account.)
+Then use the bash command in CMD
+Windows very recently released Windows Terminal 1.0 which you can see how to access/download here, and it is a nice clean program that can run specific types of terminals:
+https://www.howtogeek.com/673729/heres-why-the-new-windows-10-terminal-is-amazing/
+Any Windows
+you can *try* the above, or you can use a program called:
+Git Bash
+PuTTY
+Search google for how to access a Linux/bash terminal in windows.
+Login into dataopsu.com using ssh
+ssh <firstname>@dataopsu.com
+Enter your password, default is z=3)Yghc
